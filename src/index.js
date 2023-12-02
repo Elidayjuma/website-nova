@@ -8,20 +8,20 @@ import {
 } from "react-router-dom";
 
 
-import HomePage from "./pages/homePage";
-import ErrorPage from './pages/errorPage';
-import AboutUsPage from './pages/aboutUs';
-import TrainingPage from './pages/training';
-import CommunityActivitiesPage from './pages/communityActivities';
-import BlackImmigrantVoicesPage from './pages/blackImmigrantVoices';
-import AwardsPage from './pages/awards';
-import ActionForumsPage from './pages/actionForums';
-import SupportServicesPage from './pages/supportServices';
-import AdvocacyPage from './pages/advocacy';
-import GetInvolvedPage from './pages/getInvolved';
-import HireUsPage from './pages/hireUs';
-import ContactUsPage from './pages/contact';
-import EventsPage from './pages/events';
+import HomePage from "./greenlandPages/homePage";
+import ErrorPage from './greenlandPages/errorPage';
+import AboutUsPage from './greenlandPages/aboutUs';
+import TrainingPage from './greenlandPages/training';
+import CommunityActivitiesPage from './greenlandPages/communityActivities';
+import BlackImmigrantVoicesPage from './greenlandPages/blackImmigrantVoices';
+import AwardsPage from './greenlandPages/awards';
+import ActionForumsPage from './greenlandPages/actionForums';
+import SupportServicesPage from './greenlandPages/supportServices';
+import AdvocacyPage from './greenlandPages/advocacy';
+import GetInvolvedPage from './greenlandPages/getInvolved';
+import HireUsPage from './greenlandPages/hireUs';
+import ContactUsPage from './greenlandPages/contact';
+import EventsPage from './greenlandPages/events';
 
 const router = createBrowserRouter([
   {
