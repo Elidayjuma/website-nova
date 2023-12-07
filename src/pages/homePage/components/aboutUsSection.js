@@ -1,5 +1,6 @@
 import React from 'react';
 import CenteredSection from "../../../components/common/centeredSection";
+import globalStrings from '../../../assets/strings';
 
 export default function AboutUsSection() {
     return (
@@ -7,7 +8,7 @@ export default function AboutUsSection() {
             <div className="container">
                 <CenteredSection
                     heading="About Us"
-                    body="We are a vibrant grassroot group dedicated to empowering grassroots black immigrants. We are driven by a passionate commitment to fostering unity, resilience, and collaboration within the black immigrant community. At Black Immigrant Thrives, we believe that every individual's journey is unique, and their stories, challenges, and triumphs deserve to be heard and celebrated"
+                    body={globalStrings.loremIpsum}
                 />
 
             </div>

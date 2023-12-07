@@ -2,10 +2,10 @@ import React from 'react';
 import Header from '../../components/header';
 import Footer from '../../components/footer';
 import PageTitle from '../../components/pageTitle';
-import Section from '../../components/common/section';
 import Card from '../../components/common/card';
 import MissionSection from '../homePage/components/missionSection';
 import ImageURLs from '../../assets/images';
+import globalStrings from '../../assets/strings';
 
 export default function AboutUs() {
     return (
@@ -18,7 +18,7 @@ export default function AboutUs() {
             <div className="container">
 
                 <section>
-                    <p className='h5'>We are a vibrant grassroot group dedicated to empowering grassroots black immigrants. We are driven by a passionate commitment to fostering unity, resilience, and collaboration within the black immigrant community. At Black Immigrant Thrives, we believe that every individual's journey is unique, and their stories, challenges, and triumphs deserve to be heard and celebrated</p>
+                    <p className='h5'>{globalStrings.loremIpsum}</p>
                 </section><hr/>
                 <MissionSection />
             </div>

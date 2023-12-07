@@ -1,5 +1,6 @@
 import React from 'react';
 import IconSection from '../../../components/common/iconSection';
+import globalStrings from '../../../assets/strings';
 
 export default function OurObjectivesSection() {
     return (
@@ -13,19 +14,19 @@ export default function OurObjectivesSection() {
                         <div className="row">
                             <div className='col col-12 col-md-6 col-lg-6'>
                             <IconSection
-                                title="Partner with us "
-                                body="Collaboration is at the heart of our impact. If you represent a business, nonprofit organization, or educational institution aligned with our mission, we invite you to partner with Black Immigrant Thrives. Get in touch with our team here."
+                                title={globalStrings.loremIpsumCardHeading}
+                                body={globalStrings.loremIpsumCard}
                                 icon="fa-user"
-                                link="/get-involved"
+                                link="/#"
                                 linkText="Learn more"
                             />
                             </div>
                             <div className='col col-12 col-md-6 col-lg-6'>
                             <IconSection
-                                title="Hire us"
-                                body="We offer flexible consulting models tailored to the needs of NGOs and organizations. Whether you're looking for a one-time consultation or ongoing support, our services are adaptable to suit your organization's unique requirements and goals."
+                                title={globalStrings.loremIpsumCardHeading}
+                                body={globalStrings.loremIpsumCard}
                                 icon="fa-users"
-                                link="/hire-us"
+                                link="/#"
                                 linkText="Learn more"
                             />
                             </div>

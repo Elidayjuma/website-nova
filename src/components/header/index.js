@@ -8,7 +8,8 @@ function Header() {
             <nav className="navbar navbar-expand-lg  navbar-light bg-light">
                 <div className="container">
                 <a className="navbar-brand" href="/">
-                    <img src={ImageURLs.logoUrl} width="80" height="80" alt="logo"/>
+                    {/* <img src={ImageURLs.logoUrl} width="80" height="80" alt="logo"/> */}
+                    Website-Nova
                 </a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -19,10 +20,10 @@ function Header() {
                             <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/about-us">About us</a>
+                            <a className="nav-link" href="/#">About us</a>
                         </li>
                         
-                        <li className="nav-item dropdown">
+                        {/* <li className="nav-item dropdown">
                             <a className="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 What we do
                             </a>
@@ -40,22 +41,22 @@ function Header() {
                                 <a className="dropdown-item" href="/support-services">Support services</a>
                                 <a className="dropdown-item" href="/advocacy">Advocacy</a>
                             </div>
-                        </li>
-                        <li className="nav-item">
+                        </li> */}
+                        {/* <li className="nav-item">
                             <a className="nav-link" href="/get-involved">Get involved</a>
+                        </li> */}
+                        <li className="nav-item">
+                            <a className="nav-link" href="/#">Events</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/events">Events</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="/hire-us">Hire us</a>
+                            <a className="nav-link" href="/#">Hire us</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="/contact-us">Contact us</a>
                         </li>
-                        <li className="nav-item ml-auto">
+                        {/* <li className="nav-item ml-auto">
                             <a className="btn btn-primary" href="/">Donate</a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 

@@ -1,6 +1,7 @@
 import React from 'react';
 import Card from "../../../components/common/card.js";
 import './style.css'
+import globalStrings from '../../../assets/strings/index.js';
 
 export default function OurApproachSection() {
     return (
@@ -10,27 +11,27 @@ export default function OurApproachSection() {
                     <div className='row'>
                         <div className='col col-12 col-md-6 col-lg-4 mb-3'>
                             <Card
-                                link="./about-us"
+                                link="/#"
                                 linkText="Learn more"
-                                title="Storytelling and Media Engagement"
-                                body="Our interactive platforms bring to life the stories, challenges, and triumphs of black immigrants. We offer a stage for personal narratives, with guest speakers who share their unique experiences, enriching our understanding of the diverse journeys within our community."
+                                title={globalStrings.loremIpsumCardHeading}
+                                body={globalStrings.loremIpsumCard}
                             />
 
                         </div>
                         <div className='col col-12 col-md-6 col-lg-4 mb-3'>
                             <Card
-                                link="./about-us"
+                                link="/#"
                                 linkText="Learn more"
-                                title="Community Gatherings and Forums"
-                                body="We host community gatherings and forums that provide a space for individuals to connect, find inspiration, and access valuable resources. These events foster collaboration, enhancing the overall well-being of our members."
+                                title={globalStrings.loremIpsumCardHeading}
+                                body={globalStrings.loremIpsumCard}
                             />
                         </div>
                         <div className='col col-12 col-md-6 col-lg-4 mb-3'>
                             <Card
-                                link="./about-us"
+                                link="/#"
                                 linkText="Learn more"
-                                title="Peer Mentorship"
-                                body="Through mentorship, we provide guidance and resources to help black immigrants navigate the complexities of immigration, settlement, and integration. Our mentorship programs create a strong support network, ensuring that no one is left to face their challenges alone."
+                                title={globalStrings.loremIpsumCardHeading}
+                                body={globalStrings.loremIpsumCard}
                             />
 
                         </div>

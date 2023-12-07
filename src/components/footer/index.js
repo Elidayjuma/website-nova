@@ -43,7 +43,7 @@ function Footer() {
       </div>
     </div>
       <div className="row text-center copy-right-footer">
-        <span>  &copy; Black Immigrants Thrive - 2023</span>
+        <span>  &copy; Website-Nova - 2023</span>
       </div>
     </div>
   );
